@@ -1,22 +1,19 @@
 #! /bin/bash
+# Generate new site content
 
 
-
-#cd ssg-bash
-#git pull.sh
-
-
-#cat top.html index.html bottom.html > docs/index.html
+# Clean old files
+rm -rf *.html
 
 
+echo "Were goign to gen your new html files"
+
+
+# Gen new files
 cat templates/top.html content/index.html templates/bottom.html > index.html
 cat templates/top.html content/blog.html templates/bottom.html > blog.html
 cat templates/top.html content/projects.html templates/bottom.html > projects.html
 
 echo "Build Complete, here's the contents of docs"
-ls -l .
-
-
-#git add -a
-#git commit -m "updated stuff" 
-#git push
+ls -l *.html 
+open .
