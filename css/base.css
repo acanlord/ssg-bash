@@ -1,0 +1,24 @@
+
+
+            body {
+                background-image: url("./img/ripples.png");
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-family: 'PT Sans', sans-serif;
+                text-align: center;
+            }
+  			.posts > div {
+                margin-top:30px;
+				padding: 10px;
+                border-radius: 4px;
+                background: rgb(196, 203, 227);
+            }
+		  	.img h2 {
+			  	border-bottom: 2px solid white;
+		  	}
+			.my-custom-nav {
+			    margin-top: 20px;
+			}
+            .col-sm-3 > div{
+                background:#ddd;
+            }   
