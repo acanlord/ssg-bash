@@ -8,7 +8,6 @@ rm -rf *.html
 
 echo "Were goign to gen your new html files"
 
-
 # Gen new files
 cat templates/top.html content/index.html templates/bottom.html > index.html
 cat templates/top.html content/blog.html templates/bottom.html > blog.html
