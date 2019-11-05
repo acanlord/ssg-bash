@@ -3,8 +3,8 @@
 
 
 # Clean old files
-rm -rf *.html
-
+echo "Removing old files"
+rm -rf ./docs/*.html
 
 echo "Were goign to gen your new html files"
 
