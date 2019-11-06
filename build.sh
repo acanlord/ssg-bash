@@ -1,7 +1,6 @@
 #! /bin/bash
+
 # Generate new site content
-
-
 echo "Were goign to gen your new html files"
 
 # Gen new files
